@@ -46,7 +46,7 @@ Además de realizar la detección, la interfaz presenta al usuario imágenes ilu
    - Coloca el archivo descargado (`best.pt`) en la carpeta `Modelos/` del proyecto.
 
 4. Colocar los recursos visuales:
-   - Coloca las imágenes de contenedores de reciclaje en la carpeta `setUp`:
+   - Coloca las imágenes de contenedores de reciclaje en la carpeta `setop`:
      - Metal.png
      - vidrio.png
      - plastico.png
@@ -65,7 +65,7 @@ Además de realizar la detección, la interfaz presenta al usuario imágenes ilu
 eco_vishionai/
 ├── Modelos/
 │   └── best.pt              # Modelo YOLOv8 preentrenado para la detección (descargar separadamente)
-├── setUp/
+├── setop/
 │   ├── Canva.png            # Imagen de fondo para la interfaz
 │   ├── Metal.png            # Imagen del contenedor de metal
 │   ├── vidrio.png           # Imagen del contenedor de vidrio
