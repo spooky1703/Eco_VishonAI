@@ -40,8 +40,12 @@ Además de realizar la detección, la interfaz presenta al usuario imágenes ilu
    pip install opencv-python-headless pillow ultralytics numpy imutils
    ```
 
-3. Colocar los modelos y recursos visuales:
-   - Asegúrate de tener el archivo de modelo YOLOv8 preentrenado guardado en la ruta: `Modelos/best.pt`.
+3. Descargar y colocar el modelo YOLO:
+   - **IMPORTANTE**: Debido a limitaciones de GitHub, el modelo YOLO no está incluido en el repositorio.
+   - Descarga el modelo desde este link: [https://www.mediafire.com/folder/y6u6feknwpqh4/Modelos](https://www.mediafire.com/folder/y6u6feknwpqh4/Modelos)
+   - Coloca el archivo descargado (`best.pt`) en la carpeta `Modelos/` del proyecto.
+
+4. Colocar los recursos visuales:
    - Coloca las imágenes de contenedores de reciclaje en la carpeta `setUp`:
      - Metal.png
      - vidrio.png
@@ -60,7 +64,7 @@ Además de realizar la detección, la interfaz presenta al usuario imágenes ilu
 ```
 eco_vishionai/
 ├── Modelos/
-│   └── best.pt              # Modelo YOLOv8 preentrenado para la detección
+│   └── best.pt              # Modelo YOLOv8 preentrenado para la detección (descargar separadamente)
 ├── setUp/
 │   ├── Canva.png            # Imagen de fondo para la interfaz
 │   ├── Metal.png            # Imagen del contenedor de metal
@@ -76,6 +80,7 @@ eco_vishionai/
 └── main.py                  # Archivo principal de la aplicación
 ```
 
+[El resto del README continúa sin cambios...]
 ## Uso del Programa
 
 ### 1. Iniciar la aplicación
