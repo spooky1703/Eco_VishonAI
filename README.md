@@ -22,7 +22,7 @@ Además de realizar la detección, la interfaz presenta al usuario imágenes ilu
 
 1. Clonar el repositorio o descargar el código fuente:
    ```
-   git clone https://github.com/tuusuario/eco_vishionai.git
+   https://github.com/spooky1703/Eco_VishonAI.git
    cd eco_vishionai
    ```
 
