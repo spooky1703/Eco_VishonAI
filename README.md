@@ -142,6 +142,29 @@ Si experimentas lentitud en la captura de video, asegúrate de que tu computador
 ### 2. Ampliación del modelo
 
 Si deseas entrenar el modelo YOLO para detectar más tipos de basura o mejorar la precisión del modelo actual, puedes hacerlo proporcionando un conjunto de datos adecuado y volviendo a entrenar el modelo YOLO.
+### 3. Uso del programa
+
+Una vez que haya completado correctamente todos los pasos de instalación, debería poder ejecutar Eco_VishionAI en su computadora. Tenga en cuenta los siguientes puntos para un funcionamiento óptimo:
+
+1. Permisos de cámara:
+   Al ejecutar el programa por primera vez, se le solicitarán permisos de acceso a la cámara. Es posible que el script se cierre después de esta solicitud.
+
+2. Reinicio del programa:
+   Si el programa se cierra después de solicitar los permisos, simplemente reinícielo y ejecútelo nuevamente.
+
+3. Preparación del entorno:
+   - Apunte la cámara de su computadora hacia un área con un fondo despejado.
+   - Asegúrese de que no haya objetos que puedan interrumpir el escaneo en el fondo.
+
+4. Análisis de objetos:
+   - Coloque los objetos que desea analizar en el área despejada frente a la cámara.
+   - El programa detectará automáticamente los objetos y señalará qué tipo de residuo es cada uno.
+
+5. Interpretación de resultados:
+   Observe la pantalla para ver la clasificación de los residuos detectados. El programa indicará si el objeto es metal, vidrio, plástico, cartón o un desecho médico.
+
+Recuerde que para obtener los mejores resultados, asegúrese de que los objetos estén claramente visibles y bien iluminados en el campo de visión de la cámara.
+
 
 ## Conclusión
 
